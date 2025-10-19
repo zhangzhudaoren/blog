@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>樟竹道人</title>
+  <subtitle>樟竹塘纪事</subtitle>
+  <link href="https://zhangzhudaoren.github.io/" rel="alternate" type="text/html"/>
+  <link href="https://zhangzhudaoren.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://zhangzhudaoren.github.io/</id>
+  <updated>2025-10-19T12:14:37.481Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>备份博客说明</title>
+    <link href="https://zhangzhudaoren.github.io/posts/%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E8%AF%B4%E6%98%8E/" rel="alternate" type="text/html"/>
+    <id>https://zhangzhudaoren.github.io/posts/%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E8%AF%B4%E6%98%8E/</id>
+    <published>2025-10-19T00:00:00.000Z</published>
+    <updated>2025-10-19T00:00:00.000Z</updated>
+    <summary></summary>
+    <content type="html"><![CDATA[<p>记录这个博客网站的使用方法。</p>
+<ul>
+<li>https://docs.mizuki.mysqil.com/</li>
+</ul>
+<hr />
+<p>/src/pages/friends.astro</p>
+<pre><code>const items = [
+	{
+		title: "Astro",
+		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&amp;s=640",
+		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
+		siteurl: "https://github.com/withastro/astro",
+		tags: ["Framework"],
+	},
+	{
+		title: "Mizuki Docs",
+		imgurl:
+			"http://q.qlogo.cn/headimg_dl?dst_uin=3231515355&amp;spec=640&amp;img_type=jpg",
+		desc: "Mizuki User Manual",
+		siteurl: "https://docs.mizuki.mysqil.com",
+		tags: ["Docs"],
+	},
+];
+</code></pre>
+<p>::github{repo="matsuzaka-yuki/Mizuki"}</p>
+<h3>🎯</h3>
+<ul>
+<li><strong>Callouts &amp; Admonitions</strong> - Beautiful info boxes with <code>&gt; [!NOTE]</code>, <code>&gt; [!TIP]</code>, <code>&gt; [!WARNING]</code></li>
+<li><strong>Mathematical Equations</strong> - Write LaTeX math with <code>$inline$</code> and <code>$$block$$</code> syntax</li>
+<li><strong>GitHub Cards</strong> - Embed repository cards with <code>::github{repo="user/repo"}</code></li>
+<li><strong>Syntax Highlighting</strong> - Advanced code highlighting with line numbers</li>
+<li><strong>Copy Code Buttons</strong> - Easy code copying functionality</li>
+<li><strong>Advanced Search</strong> - Powered by <a href="https://pagefind.app/">Pagefind</a> for fast, accurate results</li>
+<li><strong>Enhanced Code Blocks</strong> - Powered by <a href="https://expressive-code.com/">Expressive Code</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>樟竹道人</name>
+    </author>
+    <category term="备份"></category>
+  </entry>
+</feed>

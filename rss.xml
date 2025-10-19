@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>樟竹道人</title><description>樟竹塘纪事</description><link>https://zhangzhudaoren.github.io/</link><language>zh_CN</language><item><title>备份博客说明</title><link>https://zhangzhudaoren.github.io/posts/%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E8%AF%B4%E6%98%8E/</link><guid isPermaLink="true">https://zhangzhudaoren.github.io/posts/%E5%A4%87%E4%BB%BD%E5%8D%9A%E5%AE%A2%E8%AF%B4%E6%98%8E/</guid><pubDate>Sun, 19 Oct 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;记录这个博客网站的使用方法。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;https://docs.mizuki.mysqil.com/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;/src/pages/friends.astro&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;const items = [
+	{
+		title: &quot;Astro&quot;,
+		imgurl: &quot;https://avatars.githubusercontent.com/u/44914786?v=4&amp;amp;s=640&quot;,
+		desc: &quot;The web framework for content-driven websites. ⭐️ Star to support our work!&quot;,
+		siteurl: &quot;https://github.com/withastro/astro&quot;,
+		tags: [&quot;Framework&quot;],
+	},
+	{
+		title: &quot;Mizuki Docs&quot;,
+		imgurl:
+			&quot;http://q.qlogo.cn/headimg_dl?dst_uin=3231515355&amp;amp;spec=640&amp;amp;img_type=jpg&quot;,
+		desc: &quot;Mizuki User Manual&quot;,
+		siteurl: &quot;https://docs.mizuki.mysqil.com&quot;,
+		tags: [&quot;Docs&quot;],
+	},
+];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;::github{repo=&quot;matsuzaka-yuki/Mizuki&quot;}&lt;/p&gt;
+&lt;h3&gt;🎯&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Callouts &amp;amp; Admonitions&lt;/strong&gt; - Beautiful info boxes with &lt;code&gt;&amp;gt; [!NOTE]&lt;/code&gt;, &lt;code&gt;&amp;gt; [!TIP]&lt;/code&gt;, &lt;code&gt;&amp;gt; [!WARNING]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mathematical Equations&lt;/strong&gt; - Write LaTeX math with &lt;code&gt;$inline$&lt;/code&gt; and &lt;code&gt;$$block$$&lt;/code&gt; syntax&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Cards&lt;/strong&gt; - Embed repository cards with &lt;code&gt;::github{repo=&quot;user/repo&quot;}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Syntax Highlighting&lt;/strong&gt; - Advanced code highlighting with line numbers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Copy Code Buttons&lt;/strong&gt; - Easy code copying functionality&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Search&lt;/strong&gt; - Powered by &lt;a href=&quot;https://pagefind.app/&quot;&gt;Pagefind&lt;/a&gt; for fast, accurate results&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enhanced Code Blocks&lt;/strong&gt; - Powered by &lt;a href=&quot;https://expressive-code.com/&quot;&gt;Expressive Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded></item></channel></rss>
