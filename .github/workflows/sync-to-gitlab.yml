@@ -1,0 +1,24 @@
+name: Auto Sync to GitLab
+
+on:
+  push: # GitHub仓库有提交时触发
+    branches: [ main ]
+  schedule: # 每天UTC 0点同步（可选）
+    - cron: '0 0 * * *'
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "zhangzhudaoren"
+          git config --global user.email "1738069568@qq.com"
+
+      - name: Push to GitLab
+        run: |
+          git remote add gitlab http://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@gitlab.com:zhangzhudaoren/zhangzhudaoren.gitlab.io.git
+          git push gitlab main
