@@ -2,7 +2,13 @@
 
 我是樟竹道人，欢迎交流，本人的主要热情在于修身养心，培养一些好习惯（作息稳定、戒色、健身、专精一个领域），学习一些知识技能，文科主要是（心学、儒学），工科主要是电路板维修、嵌入式领域比如（电路仿真、PCB设计与组装、结构设计与3D打印、电子元器件、芯片手册、通讯协议、C基础、嵌入式操作系统、网络协议、终端APP），每一天都好好过。
 
-
+博客
+[](https://zhangzhudaoren.netlify.app/)
+[](https://zhangzhudaoren.vercel.app/)
+[](https://zhangzhudaoren.github.io/)
+[](https://zhangzhudaoren.gitee.io/)
+[](https://zhangzhudaoren.gitlab.io/)
+ 
 
 ## 🌟 知识树
 
