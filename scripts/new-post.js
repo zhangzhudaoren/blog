@@ -46,11 +46,12 @@ const content = `---
 title: ${args[0]}
 published: ${getDate()}
 description: ''
-image: ''
+image: './images/cover.jpg'
 tags: []
-category: ''
-draft: false 
-lang: ''
+category: '随笔'
+draft: false
+pinned: false
+lang: zh-CN
 ---
 `
 
