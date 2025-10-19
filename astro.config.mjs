@@ -28,7 +28,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://zhangzhudaoren.github.io',
-	base: 'blog', 
+	//base: 'blog', 
 	// //如果你的页面是由根目录提供的，则不需要设置 base 参数
 
 	trailingSlash: "always",
